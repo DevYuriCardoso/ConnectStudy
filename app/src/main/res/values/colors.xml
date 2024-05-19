@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Customisando Connect-->
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+
+    <color name="primaria">#F902B4</color>
+    <color name="primariaVariacao">#AA0407</color>
+    <color name="secundaria">#f70000</color>
+    <color name="fundo">#FFFFFF</color>
+    <color name="menu_navegacao">@color/branco</color>
+
+    <color name="blue">#F902B4</color>
+    <color name="purple">#4F4CD5</color>
+
+
+
+</resources>
