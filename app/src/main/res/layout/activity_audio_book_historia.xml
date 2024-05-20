@@ -177,30 +177,45 @@
     <ImageView
         android:id="@+id/btn_historia"
         :layout_constraintBottom_toBottomOf="@+id/btn_historia"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="120dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guiaDireita"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guiaEsquerda"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.102"
+        app:layout_constraintVertical_bias="0.285"
         app:srcCompat="@drawable/btn_roma_audiobook" />
 
     <ImageView
         android:id="@+id/btn_historia2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/btn_historia"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guiaEsquerda"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/btn_roma_audiobook" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coiny"
+        android:text="Audio Book"
+        android:textColor="@color/fundo"
+        android:textColorLink="@color/fundo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/guiaDireita"
+        app:layout_constraintStart_toStartOf="@+id/guiaEsquerda"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

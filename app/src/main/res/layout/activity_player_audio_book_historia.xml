@@ -187,7 +187,7 @@
         app:srcCompat="@drawable/btn_roma_audiobook" />
 
     <SeekBar
-        android:id="@+id/seekBar2"
+        android:id="@+id/seekVolume"
         android:layout_width="268dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
@@ -203,11 +203,62 @@
         android:layout_height="191dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView20"
         app:layout_constraintEnd_toStartOf="@+id/guiaDireita"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="@+id/guiaEsquerda"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar2"
-        app:layout_constraintVertical_bias="0.523"
+        app:layout_constraintTop_toBottomOf="@+id/seekVolume"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/libras" />
+
+    <Button
+        android:id="@+id/btn_Stop"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/stop"
+        android:onClick="pararSom"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Pouse"
+        app:layout_constraintEnd_toStartOf="@+id/guiaDireita"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toEndOf="@+id/btn_Pouse"
+        app:layout_constraintTop_toTopOf="@+id/btn_Pouse" />
+
+    <Button
+        android:id="@+id/btn_Pouse"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/pouse"
+        android:onClick="pausarSom"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPlay"
+        app:layout_constraintStart_toEndOf="@+id/btnPlay"
+        app:layout_constraintTop_toTopOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/player"
+        android:onClick="executarSom"
+        app:layout_constraintStart_toStartOf="@+id/guiaEsquerda"
+        app:layout_constraintTop_toBottomOf="@+id/seekVolume" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coiny"
+        android:text="Audio Book"
+        android:textColor="@color/fundo"
+        android:textColorLink="@color/fundo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/guiaDireita"
+        app:layout_constraintStart_toStartOf="@+id/guiaEsquerda"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

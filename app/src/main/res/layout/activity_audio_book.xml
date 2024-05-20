@@ -22,11 +22,11 @@
         app:srcCompat="@drawable/fundo_menu" />
 
     <ImageView
-        android:id="@+id/btn_HumanasBook"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
+        android:id="@+id/btn_Photoshop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/btnCursos"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guiaEsquerda"
         app:layout_constraintTop_toTopOf="@+id/guideline6"
@@ -34,33 +34,33 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCursos"
         app:layout_constraintEnd_toEndOf="@id/guiaDireita"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
-        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintStart_toEndOf="@+id/btnCursos"
+        app:layout_constraintTop_toTopOf="@+id/btnCursos"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/btn_exatas" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/imageView18"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guiaEsquerda"
 
 
-        app:layout_constraintTop_toBottomOf="@+id/btn_HumanasBook"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Photoshop"
         app:srcCompat="@drawable/btn_saude" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toStartOf="@+id/imageView15"
         app:layout_constraintHorizontal_bias="0.5"
@@ -70,8 +70,8 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@id/guiaDireita"
         app:layout_constraintHorizontal_bias="0.5"
@@ -236,14 +236,14 @@
         app:layout_constraintTop_toTopOf="@+id/imageView13" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_HumanasBook"
+        android:id="@+id/btnCursos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Photoshop"
         app:layout_constraintEnd_toStartOf="@+id/imageView19"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_HumanasBook"
-        app:layout_constraintTop_toTopOf="@+id/btn_HumanasBook"
+        app:layout_constraintStart_toEndOf="@+id/btn_Photoshop"
+        app:layout_constraintTop_toTopOf="@+id/btn_Photoshop"
         app:srcCompat="@drawable/btn_bio" />
 
     <ImageView
@@ -280,21 +280,25 @@
         app:srcCompat="@drawable/icon_menu" />
 
     <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
+        android:id="@+id/btn_comunicacao_Curso"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView28"
         app:layout_constraintEnd_toStartOf="@+id/imageView30"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView28"
         app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/btn_comunicacao" />
 
     <ImageView
         android:id="@+id/imageView28"
-        android:layout_width="65dp"
-        android:layout_height="69dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView29"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_comunicacao_Curso"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guiaEsquerda"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
@@ -302,12 +306,13 @@
 
     <ImageView
         android:id="@+id/imageView30"
-        android:layout_width="55dp"
-        android:layout_height="69dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+        android:layout_width="73dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_comunicacao_Curso"
         app:layout_constraintEnd_toEndOf="@id/guiaDireita"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView29"
-        app:layout_constraintTop_toTopOf="@+id/imageView29"
+        app:layout_constraintStart_toEndOf="@+id/btn_comunicacao_Curso"
+        app:layout_constraintTop_toTopOf="@+id/btn_comunicacao_Curso"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/btn_enviarartigo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
